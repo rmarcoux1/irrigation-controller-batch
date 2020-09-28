@@ -1,7 +1,10 @@
 spring:
+  batch:
+    job:
+      enabled: false
   data:
     mongodb:
-      uri: mongodb+srv://${user.name}}:${user.password}}@rmcluster-d4k6i.mongodb.net/sample?retryWrites=true&w=majority
+      uri: mongodb+srv://${username}:${password}}@rmcluster-d4k6i.mongodb.net/sample?retryWrites=true&w=majority
 
 server:
   port: 8082

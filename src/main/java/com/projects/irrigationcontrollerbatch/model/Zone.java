@@ -17,6 +17,8 @@ public class Zone {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private String id;
+    private int zoneNumber;
+    private boolean activeIndicator;
     private String location;
     private int runTime;
 }
